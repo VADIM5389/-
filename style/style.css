@@ -1,0 +1,267 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #313131;
+    color: white;
+}
+
+
+nav{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding: 15px;
+}
+li{
+    font-size: 20px;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.Blok1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #f1a446;
+    color: black;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+.Blok2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #f1a446;
+    color: black;
+    padding-left: 3cm;
+    padding-right: 5cm;
+}
+.Blok3 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #f1a446;
+    color: black;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+img{
+    margin: 20px;
+}
+b{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+/* Отзывы */
+
+.swiper {
+    width: 100%;
+    height: 50vh; /* Высота слайдера: половина экрана */
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1a446; /* Фон слайдера оранжевый */
+}
+.comments {
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    gap: 20px; /* Отступы между комментариями */
+    width: 100%; /* Занимает всю ширину слайда */
+    height: 100%; /* Занимает всю высоту слайда */
+    text-align: center;
+}
+
+.comment {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Ширина карточки */
+    height: 350px;
+    display: flex;
+    flex-direction: column; /* Элементы идут сверху вниз */
+    align-items: center; /* Центрирование содержимого по горизонтали */
+    text-align: center;
+    gap: 10px; /* Расстояние между элементами */
+}
+
+.comment-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Круглое фото */
+    object-fit: cover; /* Обеспечивает аккуратное отображение фото */
+}
+
+.comment-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.comment-rating {
+    font-size: 18px;
+    color: #f39c12; /* Цвет звёзд */
+}
+
+.comment-text {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+
+/* Отзывы конец */
+
+/* Карта */
+
+iframe{
+    border-radius: 20px;
+}
+
+#contact-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1a446;
+}
+
+#contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.map {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Карта конец */
+
+
+/* Подвал */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Конец Подвал */
+
+
+
+/* 2 страница */
+
+#products {
+    padding: 40px;
+    background-color: #f1a446;
+    text-align: center;
+}
+
+#products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-image {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-button:hover {
+    background-color: #555;
+}
+
+
+.pages2{
+    background-color: #f1a446;
+}
+/* Конец 2 страницы */
